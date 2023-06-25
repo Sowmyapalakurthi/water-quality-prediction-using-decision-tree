@@ -1,0 +1,131 @@
+body {
+    background-color: #f8f9fa;
+  }
+
+  header {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  header .navbar-brand {
+    font-weight: bold;
+    color: #000000;
+  }
+
+  section {
+    padding: 40px 0;
+  }
+
+  .club-card {
+    margin-bottom: 30px;
+  }
+
+  .club-card .card {
+    border: none;
+    transition: transform 0.2s;
+  }
+
+  .club-card .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .club-card .card-img-top {
+    object-fit: cover;
+    height: 200px;
+  }
+
+  .club-card .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .club-card .card-text {
+    font-size: 16px;
+  }
+
+  .club-card .btn {
+    background-color: #007bff;
+    border: none;
+  }
+
+  .club-card .btn:hover {
+    background-color: #0056b3;
+  }
+
+  .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    z-index: 9999;
+  }
+
+  .back-to-top.show {
+    display: block;
+  }
+
+  footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    color: #000000;
+  }
+
+  footer h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  footer p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  footer ul li {
+    margin-bottom: 10px;
+  }
+
+  footer ul li a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  footer ul li a:hover {
+    color: #007bff;
+  }
+
+  footer i {
+    margin-right: 10px;
+  }
+
+  .section-home {
+  background-color: #f8f9fa;
+}
+
+.section-clubs {
+  background-color: #e9ecef;
+}
+
+.section-events {
+  background-color: #f8f9fa;
+}
+
+.section-contact {
+  background-color: #e9ecef;
+}
